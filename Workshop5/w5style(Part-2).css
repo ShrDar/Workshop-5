@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Chivo Mono', monospace;;
+  }
+  body{
+    background-color:#000;
+  }
+  .container{
+    background-color:rgb(109, 151, 115);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    color:#fff;
+    height:100vh;
+    margin-left:100px;
+    margin-right:100px;
+  }
+  .cw1{
+    width:55%;
+    padding:20px;
+  }
+  h1{
+    font-size:65px;
+    padding:25px;
+    text-align:left;
+    margin-top:20px;
+    letter-spacing:0px;
+    word-spacing:0px;
+  }
+  .para{
+    width:40%;
+    padding:35px;
+  }
+  p{
+    font-size:25px;
+    text-align:left;
+    padding:10px;
+    margin-top:30px;
+    line-height:1.1;
+    word-spacing:3px;
+  }
+  .imgwrap{
+    height:300px;
+    width:1180px;
+    background-image:url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin-top:-90px;
+  }
