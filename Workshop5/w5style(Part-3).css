@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;500&family=Open+Sans&family=Poiret+One&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+ font-family: 'Open Sans', sans-serif;;
+}
+body{
+  background-color:black;
+}
+.container{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  background-color:#FFBA00;
+  justify-content:;
+  height:90vh;
+  margin-left:100px;
+  margin-right:100px;
+}
+.content1{
+  font-size:25px;
+  text-align:center;
+}
+.wrapper1{
+ margin-right:100px;
+}
+.wrapper2{
+   margin-right:100px;;
+}
+.wrapper3{
+  ;
+}
+.image1{
+  height:380px;
+  width:380px;
+  background-image:url("https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80");
+  background-size:cover;
+}
+.image2{
+  height:380px;
+  width:380px;
+  background-image:url("https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-size:cover;
+}
+.image3{
+  height:380px;
+  width:359px;
+  background-image:url(https://images.unsplash.com/photo-1562071707-7249ab429b2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size:cover;
+  background-position:center;
+}
+.container0{
+ background-color:#FFBA00;
+  color:#000;
+  text-align:center;
+  margin-right:100px;
+  margin-left:100px;
+  padding:50px;
+  font-size:30px;
+}
+.Name1{
+  margin-top:40px;
+  margin-left:80px;
+  font-size:20px;
+}
+.Post1{
+  margin-top:10px;
+  margin-left:110px;
+  font-size:20px;
+}
+.CName{
+  margin-left:130px;
+   font-size:20px;
+}
+.Date1{
+  margin-left:120px;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:20px;
+}
+.CName3{
+   margin-left:90px;
+   font-size:20px;
+}
+.Name3{
+  margin-top:40px;
+  margin-left:120px;
+  font-size:20px;
+}
+.Date{
+   margin-left:130px;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:20px;
+}

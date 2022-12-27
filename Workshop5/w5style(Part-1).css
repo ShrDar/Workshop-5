@@ -31,12 +31,6 @@ h2{
   font-weight:400;
   font-size:25px;
 }
-figure{
-  width: 50%;
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 body{
   background-color:#18191a;
 }
@@ -59,4 +53,21 @@ body{
 .button a:hover{
   background:black;
   color:orange;
+}
+.image{
+  height:760px;
+  width:600px;
+  background-image:url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+@media screen and (max-width: 1024px){
+  .button a{
+    font-size:16px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .button a {
+    text-align: center;
+  }
 }

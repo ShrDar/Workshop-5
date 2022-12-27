@@ -1,0 +1,38 @@
+*{
+    font-family:'Chivo Mono', monospace;;
+  }
+  body{
+    background-color:#000;
+  }
+  .container{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    background-color:rgb(109, 151, 115);
+    height:100vh;
+    margin-right:100px;
+    margin-left:100px;
+  }
+  .image{
+    height:760px;
+    width:700px;
+    background-image:url("https://scx2.b-cdn.net/gfx/news/hires/2018/handshake.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  .contentwrapper{
+    color:white;
+    margin-left:30px;
+  }
+  .heading{
+    font-size:30px;
+    word-spacing:-10px;
+    margin-bottom:200px;
+  }
+  .content1{
+    font-size:28px;
+    font-weight:20px;
+    margin-top:5px;
+    margin-bottom:10px;
+  }
